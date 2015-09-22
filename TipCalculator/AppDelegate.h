@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TipViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    TipViewController *vc;
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
+
+
 
 
 @end
